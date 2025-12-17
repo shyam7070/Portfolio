@@ -176,4 +176,14 @@ export const projects: Project[] = [
     technologies: ["PHP", "WhatsApp Business API"],
     featured: false,
   },
+  {
+    id: "14",
+    title: "NetSpeedMonitor",
+    description: "Lightweight Windows desktop application for real-time network speed monitoring with draggable overlay",
+    longDescription: "Developed a lightweight Windows desktop application that displays real-time network speed (download and upload) in a floating, draggable window. The application runs in the system tray and provides an always-on-top overlay showing current network activity. Features include real-time network monitoring using Windows Performance Counters, draggable window functionality, system tray integration, modern dark-themed UI with semi-transparent overlay, and minimal resource usage. Built with C# and .NET Framework 4.8 using Windows Forms.",
+    category: "Desktop Application",
+    technologies: ["C#", ".NET Framework", "Windows Forms", "Windows Performance Counters"],
+    githubUrl: "https://github.com/alpharibbin/NetSpeedMonitor",
+    featured: false,
+  },
 ]
