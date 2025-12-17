@@ -16,7 +16,7 @@ export default function ExperiencePage() {
     <PageTransition>
       <div className="relative min-h-screen">
         <div className="absolute inset-0 glitter-bg opacity-30"></div>
-        <div className="container py-12 md:py-24 relative z-10">
+        <div className="container px-4 py-12 md:py-24 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

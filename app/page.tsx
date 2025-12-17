@@ -162,7 +162,7 @@ export default function HomePage() {
               className="max-w-3xl mx-auto text-center space-y-6"
             >
               <h2 className="text-3xl md:text-4xl font-bold">About Me</h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                 {personalInfo.bio}
               </p>
               <Button asChild variant="outline" className="mt-4">
