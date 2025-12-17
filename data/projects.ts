@@ -160,12 +160,25 @@ export const projects: Project[] = [
   },
   {
     id: "12",
-    title: "Telegram Bot for Campus Queries",
-    description: "Bot for campus queries and automation via Telegram API",
-    longDescription: "Engineered an intelligent Telegram bot for handling campus queries and automation via Telegram API. The bot efficiently handles interactions for streamlined information dissemination, providing instant responses to common queries, delivering campus updates, and assisting with administrative processes. Improved accessibility and reduced response times for students and staff.",
+    title: "Telegram Complaint Bot for Campus",
+    description: "A Telegram bot designed for submitting and managing campus complaints efficiently",
+    longDescription: "Developed a robust Telegram bot specifically for handling student and staff complaints on campus. The bot guides users through a structured process: sharing contact details, selecting complaint category (Hostel, Mess, Study), providing a detailed description, and optionally attaching proof (photos, videos, or documents). All submissions are securely forwarded to the admin with organized summaries and media attachments. This automation significantly reduces manual handling, ensures quick response times, and improves complaint resolution transparency and accessibility across the campus.",
     category: "Automation",
-    technologies: ["PHP", "Telegram Bot API"],
+    technologies: [
+      "PHP",
+      "Telegram Bot API",
+      "Docker",
+      "Render",
+      "Webhooks"
+    ],
     featured: false,
+    githubUrl: "https://github.com/alpharibbin/Telegram-Bot-for-Complaints",
+    images: [
+      "/projects/Telegram Bot for Campus Queries/1.png",
+      "/projects/Telegram Bot for Campus Queries/2.png",
+      "/projects/Telegram Bot for Campus Queries/3.png",
+      "/projects/Telegram Bot for Campus Queries/4.png"
+    ]
   },
   {
     id: "13",
