@@ -6,6 +6,7 @@ export interface Project {
   category: string
   technologies: string[]
   imageUrl?: string
+  images?: string[]
   liveUrl?: string
   githubUrl?: string
   featured: boolean
@@ -21,6 +22,14 @@ export const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery", "SQL", "Bootstrap"],
     liveUrl: "https://rguktsklm.ac.in",
     featured: true,
+    images: [
+      "/projects/RGUKT Srikakulam Website/1.png",
+      "/projects/RGUKT Srikakulam Website/2.png",
+      "/projects/RGUKT Srikakulam Website/3.png",
+      "/projects/RGUKT Srikakulam Website/4.png",
+      "/projects/RGUKT Srikakulam Website/5.png",
+      "/projects/RGUKT Srikakulam Website/6.png",
+    ],
   },
   {
     id: "2",
@@ -41,6 +50,13 @@ export const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery", "SQL", "Bootstrap"],
     liveUrl: "https://examcell.rguktsklm.ac.in",
     featured: false,
+    images: [
+      "/projects/Results Management System/1.png",
+      "/projects/Results Management System/2.png",
+      "/projects/Results Management System/3.png",
+      "/projects/Results Management System/4.png",
+      "/projects/Results Management System/5.png",
+    ],
   },
   {
     id: "4",
@@ -51,6 +67,13 @@ export const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery", "SQL", "Bootstrap"],
     liveUrl: "https://rgukt.in",
     featured: true,
+    images: [
+      "/projects/RGUKT AP Website/1.png",
+      "/projects/RGUKT AP Website/2.png",
+      "/projects/RGUKT AP Website/3.png",
+      "/projects/RGUKT AP Website/4.png",
+      "/projects/RGUKT AP Website/5.png",
+    ],
   },
   {
     id: "5",
@@ -61,6 +84,16 @@ export const projects: Project[] = [
     technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "Monaco Editor", "OpenRouter API"],
     liveUrl: "https://code-tools-inky.vercel.app/",
     featured: true,
+    images: [
+      "/projects/AI Code Converter Platform/1.png",
+      "/projects/AI Code Converter Platform/2.png",
+      "/projects/AI Code Converter Platform/3.png",
+      "/projects/AI Code Converter Platform/4.png",
+      "/projects/AI Code Converter Platform/5.png",
+      "/projects/AI Code Converter Platform/6.png",
+      "/projects/AI Code Converter Platform/7.png",
+      "/projects/AI Code Converter Platform/8.png",
+    ],
   },
   {
     id: "6",
@@ -71,6 +104,12 @@ export const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery", "SQL", "Bootstrap"],
     liveUrl: "https://apboating.com",
     featured: false,
+    images: [
+      "/projects/AP Boating Website/1.png",
+      "/projects/AP Boating Website/2.png",
+      "/projects/AP Boating Website/3.png",
+      "/projects/AP Boating Website/4.png",
+    ],
   },
   {
     id: "7",

@@ -4,12 +4,21 @@ export const dynamic = 'force-dynamic'
 
 import * as React from "react"
 import { motion } from "framer-motion"
-import { Award, ExternalLink, Calendar } from "lucide-react"
+import { Award, ExternalLink, Calendar, Eye } from "lucide-react"
 import { format } from "date-fns"
+import Image from "next/image"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 import { certifications } from "@/data/certifications"
 import { PageTransition } from "@/components/page-transition"
 
@@ -78,14 +87,46 @@ export default function CertificationsPage() {
                     </div>
                   )}
                   <p className="text-muted-foreground">{cert.description}</p>
-                  {cert.credentialUrl && (
-                    <Button variant="outline" size="sm" asChild>
-                      <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Verify Credential
-                      </a>
-                    </Button>
-                  )}
+                  <div className="flex flex-wrap gap-2">
+                    {cert.imageUrl && (
+                      <Dialog>
+                        <DialogTrigger asChild>
+                          <Button variant="default" size="sm">
+                            <Eye className="h-4 w-4 mr-2" />
+                            View Certificate
+                          </Button>
+                        </DialogTrigger>
+                        <DialogContent className="max-w-3xl max-h-[85vh] overflow-auto p-6">
+                          <DialogHeader>
+                            <DialogTitle>{cert.title}</DialogTitle>
+                            <DialogDescription>
+                              Issued by {cert.issuer} on {format(new Date(cert.issueDate), "MMMM dd, yyyy")}
+                            </DialogDescription>
+                          </DialogHeader>
+                          <div className="relative w-full h-auto mt-4 flex justify-center">
+                            <div className="relative w-full max-w-4xl">
+                              <Image
+                                src={cert.imageUrl}
+                                alt={cert.title}
+                                width={1200}
+                                height={800}
+                                className="w-full h-auto rounded-lg shadow-lg"
+                                priority
+                              />
+                            </div>
+                          </div>
+                        </DialogContent>
+                      </Dialog>
+                    )}
+                    {cert.credentialUrl && (
+                      <Button variant="outline" size="sm" asChild>
+                        <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          Verify Credential
+                        </a>
+                      </Button>
+                    )}
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>
