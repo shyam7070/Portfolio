@@ -190,4 +190,29 @@ export const projects: Project[] = [
       "/projects/NetSpeedMonitor/2.png",
     ],
   },
+  {
+    id: "15",
+    title: "Telegram Bot Development Guide",
+    description: "A comprehensive, multi-technology guide for building and deploying Telegram bots",
+    longDescription:
+      "Created a comprehensive open-source guide for developing Telegram bots using multiple technologies, including PHP, Next.js, and Node.js. The repository provides step-by-step tutorials, real-world examples, webhook setup methods, deployment guides, and best practices for building scalable Telegram bots. It includes structured documentation covering fundamentals, messaging, keyboards, security, scaling, monetization, and common failure scenarios. Demo bots are deployed using modern hosting platforms like Vercel and Render (Docker), making the guide practical for both beginners and advanced developers.",
+    category: "Automation",
+    technologies: [
+      "Telegram Bot API",
+      "PHP",
+      "Next.js",
+      "Node.js",
+      "Docker",
+      "Vercel",
+      "Render",
+      "Webhooks"
+    ],
+    images: [
+      "/projects/Telegram Bot Development Guide/1.png",
+      "/projects/Telegram Bot Development Guide/2.png",
+      "/projects/Telegram Bot Development Guide/3.png",
+    ],
+    githubUrl: "https://github.com/alpharibbin/Telegram-Bot",
+    featured: true,
+  },  
 ]
