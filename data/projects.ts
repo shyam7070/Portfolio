@@ -102,7 +102,6 @@ export const projects: Project[] = [
     longDescription: "Developed a comprehensive tourism booking platform for boat services featuring detailed service listings, transparent pricing structures, and intuitive reservation forms. Integrated FAQs, customer testimonials, and safety features to enhance user trust and boost conversion rates. The platform streamlines the booking process for tourists seeking boat services in Andhra Pradesh.",
     category: "Web Application",
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery", "SQL", "Bootstrap"],
-    liveUrl: "https://apboating.com",
     featured: false,
     images: [
       "/projects/AP Boating Website/1.png",
@@ -118,7 +117,6 @@ export const projects: Project[] = [
     longDescription: "Built a comprehensive hospitality website for Varahi Grand Srikakulam featuring room booking capabilities, hall reservation systems, and detailed menu displays. Added customer testimonials and strategic call-to-action elements to improve user experience and drive inquiries. The platform provides an elegant digital presence for the hospitality establishment.",
     category: "Web Application",
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "jQuery", "SQL", "Bootstrap"],
-    liveUrl: "https://varahigrandsrikakulam.com",
     featured: false,
   },
   {
