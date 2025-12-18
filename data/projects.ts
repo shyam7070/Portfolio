@@ -227,5 +227,35 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/alpharibbin/Telegram-Bot",
     featured: true,
-  },  
+  },
+  {
+    id: "16",
+    title: "Face Recognition App",
+    description: "A Flutter-based real-time face recognition application using TensorFlow Lite and ML Kit",
+    longDescription:
+      "Developed a cross-platform face recognition mobile application using Flutter, TensorFlow Lite (FaceNet), and Google ML Kit. The app supports face registration, real-time single and multiple face recognition, and offline-first functionality using Hive, with optional cloud synchronization via Firebase Firestore. It features a complete user flow including email verification, face capture, embedding generation, local matching, and cloud sync. Designed as a scalable foundation for real-world use cases such as attendance systems, access control, event management, and identity verification.",
+    category: "Mobile Application",
+    technologies: [
+      "Flutter",
+      "Dart",
+      "TensorFlow Lite",
+      "FaceNet",
+      "Google ML Kit",
+      "Firebase Firestore",
+      "Hive",
+      "Camera API",
+      "Machine Learning",
+    ],
+    images: [
+      "/projects/Face Recognition App/1.png",
+      "/projects/Face Recognition App/2.jpeg",
+      "/projects/Face Recognition App/3.jpeg",
+      "/projects/Face Recognition App/4.jpeg",
+      "/projects/Face Recognition App/5.jpeg",
+      "/projects/Face Recognition App/6.jpeg",
+      "/projects/Face Recognition App/7.jpeg",
+    ],
+    githubUrl: "https://github.com/alpharibbin/facerecognition",
+    featured: true
+  },
 ]
