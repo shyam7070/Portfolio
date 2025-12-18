@@ -2,6 +2,10 @@
 
 A modern, responsive personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and shadcn/ui. Features a clean design with dark/light theme support, smooth animations, and a fully functional contact form.
 
+### Live Demo
+
+🔗 https://santhosh-sanapathi-0911.vercel.app
+
 ## ✨ Features
 
 - 🎨 **Modern UI** - Built with shadcn/ui components for consistent, accessible design
