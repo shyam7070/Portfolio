@@ -41,7 +41,7 @@ export function Navbar() {
     >
       <nav className="container px-4 flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold">SS</span>
+          <span className="text-xl font-bold">KN</span>
         </Link>
 
         {/* Desktop Navigation */}
